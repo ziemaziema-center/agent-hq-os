@@ -1,31 +1,23 @@
 1
-00:00:00,000 --> 00:00:05,650
-AI agents can write code. Long-running work fails when context, risk, and validation are reset every session.
+00:00:00,000 --> 00:00:06,650
+Agent work gets risky when context, validation, and handoffs live only in chat history.
 
 2
-00:00:06,000 --> 00:00:13,650
-Agent HQ OS treats context as runtime state, not chat history.
+00:00:07,000 --> 00:00:16,649
+Agent HQ OS is a local operating scaffold for repeatable AI agent work.
 
 3
-00:00:14,000 --> 00:00:22,649
-Tasks move through visible queue and state transitions before they are treated as complete.
+00:00:17,000 --> 00:00:26,649
+Every session starts from known failures, validated patterns, and patch history.
 
 4
-00:00:23,000 --> 00:00:32,649
-Publishing, credentials, infrastructure, messaging, and trading-adjacent work stop at explicit human gates.
+00:00:27,000 --> 00:00:38,649
+Changes are complete only when explicit checks pass, not when the model sounds confident.
 
 5
-00:00:33,000 --> 00:00:43,649
-Validation comes before confidence. Claims are not done until local evidence exists.
+00:00:39,000 --> 00:00:48,649
+Success, failure, and decision logs become safer starting context for the next run.
 
 6
-00:00:44,000 --> 00:00:54,649
-Retries are allowed only when the failure is actually retryable.
-
-7
-00:00:55,000 --> 00:01:04,650
-Telemetry turns the result of one session into safer starting context for the next.
-
-8
-00:01:05,000 --> 00:01:14,650
-This is not autopilot. It is safe bounded autonomy with human review where it matters. Agent HQ OS is a public scaffold for practical AI runtime operations.
+00:00:49,000 --> 00:00:59,649
+No private logs, no inflated autonomy claims, and no live credentials. Clone it, run the demo, and copy the starter kit into your project.
