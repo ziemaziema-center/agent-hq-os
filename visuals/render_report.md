@@ -6,10 +6,10 @@ Date: 2026-05-19
 
 | Asset | Path | Size |
 | --- | --- | ---: |
-| MP4 | `visuals/agent_hq_os_showcase.mp4` | 7.25 MB |
-| GIF | `visuals/agent_hq_os_showcase.gif` | 20.26 MB |
-| Short preview GIF | `visuals/agent_hq_os_short_preview.gif` | 5.92 MB |
-| Thumbnail | `visuals/agent_hq_os_thumbnail.png` | 0.10 MB |
+| MP4 | `visuals/agent_hq_os_showcase.mp4` | 8.76 MB |
+| GIF | `visuals/agent_hq_os_showcase.gif` | 22.79 MB |
+| Short preview GIF | `visuals/agent_hq_os_short_preview.gif` | 6.90 MB |
+| Thumbnail | `visuals/agent_hq_os_thumbnail.png` | 0.12 MB |
 | SRT | `visuals/voiceover_script.srt` | 0.00 MB |
 
 ## Technical Validation
@@ -22,16 +22,14 @@ Date: 2026-05-19
 - Short GIF streams detected: 1
 - GIF loop mode: infinite (`loop=0`)
 - Short preview GIF loop mode: infinite (`loop=0`)
-- MP4 decode validation: passed with `ffmpeg -v error`
-- README embed choice: short preview GIF embedded; full MP4 linked
 
 ## Render Notes
 
-- Style: dark cinematic motion graphics.
+- Style: dark cinematic motion graphics, operator console layout, stronger context-collapse opening, and cleaner runtime-discipline reveal.
 - Source: generated operator-console frames plus existing Agent HQ OS visual language.
 - No stock footage, no fake AGI imagery, no credential-bearing screenshots.
 - Video includes silent AAC audio track for compatibility and separate `voiceover_script.srt` subtitles.
-- Full GIF is GitHub-friendly preview quality; MP4 is the primary showcase asset.
+- Full GIF is available for preview use; README embeds the lighter short GIF and links to the MP4 as the primary showcase asset.
 
 ## README Guidance
 

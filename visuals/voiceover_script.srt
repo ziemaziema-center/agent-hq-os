@@ -1,22 +1,22 @@
 1
 00:00:00,000 --> 00:00:05,650
-AI agents can write code. But long-running projects fail when every session starts cold.
+AI agents can write code. Long-running work fails when context, risk, and validation are reset every session.
 
 2
 00:00:06,000 --> 00:00:13,650
-Agent HQ OS treats context as runtime state.
+Agent HQ OS treats context as runtime state, not chat history.
 
 3
 00:00:14,000 --> 00:00:22,649
-It starts with boot memory: known failures, validated patterns, and patch history.
+Tasks move through visible queue and state transitions before they are treated as complete.
 
 4
 00:00:23,000 --> 00:00:32,649
-Work moves through queues, reviewer loops, and deferred gates before risky actions can happen.
+Publishing, credentials, infrastructure, messaging, and trading-adjacent work stop at explicit human gates.
 
 5
 00:00:33,000 --> 00:00:43,649
-Validation comes before confidence.
+Validation comes before confidence. Claims are not done until local evidence exists.
 
 6
 00:00:44,000 --> 00:00:54,649
@@ -24,7 +24,7 @@ Retries are allowed only when the failure is actually retryable.
 
 7
 00:00:55,000 --> 00:01:04,650
-Telemetry turns the outcome of one session into the starting point for the next.
+Telemetry turns the result of one session into safer starting context for the next.
 
 8
 00:01:05,000 --> 00:01:14,650
