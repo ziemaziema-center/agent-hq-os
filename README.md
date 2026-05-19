@@ -107,7 +107,7 @@ The demo creates a small workspace, writes a validation-first note, and appends 
 
 ![Agent HQ OS short showcase preview](visuals/agent_hq_os_short_preview.gif)
 
-- [Full 75-second MP4 showcase](visuals/agent_hq_os_showcase.mp4)
+- [Full 60-second narrated MP4 showcase](visuals/agent_hq_os_showcase.mp4)
 - [Voiceover subtitle file](visuals/voiceover_script.srt)
 - [Render report](visuals/render_report.md)
 
