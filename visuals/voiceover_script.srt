@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,650
+AI agents can write code. But long-running projects fail when every session starts cold.
+
+2
+00:00:06,000 --> 00:00:13,650
+Agent HQ OS treats context as runtime state.
+
+3
+00:00:14,000 --> 00:00:22,649
+It starts with boot memory: known failures, validated patterns, and patch history.
+
+4
+00:00:23,000 --> 00:00:32,649
+Work moves through queues, reviewer loops, and deferred gates before risky actions can happen.
+
+5
+00:00:33,000 --> 00:00:43,649
+Validation comes before confidence.
+
+6
+00:00:44,000 --> 00:00:54,649
+Retries are allowed only when the failure is actually retryable.
+
+7
+00:00:55,000 --> 00:01:04,650
+Telemetry turns the outcome of one session into the starting point for the next.
+
+8
+00:01:05,000 --> 00:01:14,650
+This is not autopilot. It is safe bounded autonomy with human review where it matters. Agent HQ OS is a public scaffold for practical AI runtime operations.

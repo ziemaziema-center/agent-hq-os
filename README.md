@@ -103,6 +103,14 @@ PASS: repo validation passed
 
 The demo creates a small workspace, writes a validation-first note, and appends local telemetry. It does not call external APIs, send messages, publish content, trade, or deploy infrastructure.
 
+### Cinematic Showcase
+
+![Agent HQ OS short showcase preview](visuals/agent_hq_os_short_preview.gif)
+
+- [Full 75-second MP4 showcase](visuals/agent_hq_os_showcase.mp4)
+- [Voiceover subtitle file](visuals/voiceover_script.srt)
+- [Render report](visuals/render_report.md)
+
 ![Agent HQ OS walkthrough](assets/rendered/agent_hq_os_walkthrough.gif)
 
 ![README first view](assets/rendered/agent_hq_os_readme_first_view.png)
@@ -365,4 +373,3 @@ cd agent-hq-os
 python setup_demo_workspace.py
 python validation/validate_repo.py
 ```
-
