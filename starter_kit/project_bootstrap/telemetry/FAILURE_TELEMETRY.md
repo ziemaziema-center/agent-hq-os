@@ -1,0 +1,6 @@
+﻿# Failure Telemetry
+
+## Failure
+
+## Prevention
+
