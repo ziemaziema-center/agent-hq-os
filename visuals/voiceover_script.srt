@@ -1,23 +1,31 @@
 1
-00:00:00,000 --> 00:00:06,650
-Agent work gets risky when context, validation, and handoffs live only in chat history.
+00:00:00,000 --> 00:00:05,650
+Agent HQ OS is a public scaffold for AI coding agents: memory, validation, review, and telemetry.
 
 2
-00:00:07,000 --> 00:00:16,649
-Agent HQ OS is a local operating scaffold for repeatable AI agent work.
+00:00:06,000 --> 00:00:11,650
+Without shared memory, each new agent session starts cold and repeats old mistakes.
 
 3
-00:00:17,000 --> 00:00:26,649
-Every session starts from known failures, validated patterns, and patch history.
+00:00:12,000 --> 00:00:19,649
+Each run begins with session boot, known failures, validated patterns, and patch history.
 
 4
-00:00:27,000 --> 00:00:38,649
-Changes are complete only when explicit checks pass, not when the model sounds confident.
+00:00:20,000 --> 00:00:27,649
+Clone it, create the demo workspace, and run validation locally. No credentials required.
 
 5
-00:00:39,000 --> 00:00:48,649
-Success, failure, and decision logs become safer starting context for the next run.
+00:00:28,000 --> 00:00:35,649
+Higher-risk actions wait behind human review instead of pretending to be production autonomy.
 
 6
-00:00:49,000 --> 00:00:59,649
-No private logs, no inflated autonomy claims, and no live credentials. Clone it, run the demo, and copy the starter kit into your project.
+00:00:36,000 --> 00:00:44,649
+The task is done only when checks pass and evidence is visible.
+
+7
+00:00:45,000 --> 00:00:51,649
+Successes and failures are written back so the next session starts smarter.
+
+8
+00:00:52,000 --> 00:00:59,649
+Clone it, run the demo, and copy the starter kit into your own repo.

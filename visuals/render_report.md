@@ -6,10 +6,10 @@ Date: 2026-05-19
 
 | Asset | Path | Size |
 | --- | --- | ---: |
-| MP4 | `visuals/agent_hq_os_showcase.mp4` | 6.62 MB |
-| GIF | `visuals/agent_hq_os_showcase.gif` | 12.81 MB |
-| Short preview GIF | `visuals/agent_hq_os_short_preview.gif` | 4.64 MB |
-| Thumbnail | `visuals/agent_hq_os_thumbnail.png` | 0.12 MB |
+| MP4 | `visuals/agent_hq_os_showcase.mp4` | 8.59 MB |
+| GIF | `visuals/agent_hq_os_showcase.gif` | 16.17 MB |
+| Short preview GIF | `visuals/agent_hq_os_short_preview.gif` | 5.46 MB |
+| Thumbnail | `visuals/agent_hq_os_thumbnail.png` | 0.13 MB |
 | SRT | `visuals/voiceover_script.srt` | 0.00 MB |
 
 ## Technical Validation
