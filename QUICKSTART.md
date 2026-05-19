@@ -13,7 +13,7 @@ This quickstart verifies the public, local-only path for Agent HQ OS. It does no
 ## 1. Clone
 
 ```bash
-git clone https://github.com/agent-hq/agent-hq-os.git
+git clone https://github.com/ziemaziema-center/agent-hq-os.git
 cd agent-hq-os
 ```
 

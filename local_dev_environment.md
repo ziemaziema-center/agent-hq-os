@@ -10,7 +10,7 @@
 ## Local Setup
 
 ```bash
-git clone https://github.com/agent-hq/agent-hq-os.git
+git clone https://github.com/ziemaziema-center/agent-hq-os.git
 cd agent-hq-os
 python validation/validate_repo.py
 ```
