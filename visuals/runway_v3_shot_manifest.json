@@ -1,0 +1,74 @@
+{
+  "project": "Agent HQ OS",
+  "cut": "grant_cut_v3",
+  "target_duration_seconds": 90,
+  "source_clip_directory": "visuals/runway_v3_source_clips",
+  "required_runway_clips": [
+    {
+      "scene": 1,
+      "filename": "v3_01_task_lands.mp4",
+      "purpose": "Task enters Codex as project execution, not chat."
+    },
+    {
+      "scene": 2,
+      "filename": "v3_02_hq_assigns_agents.mp4",
+      "purpose": "HQ assigns named agent roles and ownership."
+    },
+    {
+      "scene": 3,
+      "filename": "v3_03_agents_debate.mp4",
+      "purpose": "Agents debate and reject weak strategies before implementation."
+    },
+    {
+      "scene": 4,
+      "filename": "v3_04_memory_vault.mp4",
+      "purpose": "Memory-first SESSION_BOOT opens known failures and validated patterns."
+    },
+    {
+      "scene": 6,
+      "filename": "v3_06_build_happens.mp4",
+      "purpose": "Builder creates real files, demos, docs, and checks."
+    },
+    {
+      "scene": 7,
+      "filename": "v3_07_deferred_gate.mp4",
+      "purpose": "Deferred gates stop risky live actions for human review."
+    },
+    {
+      "scene": 10,
+      "filename": "v3_10_telemetry_loop.mp4",
+      "purpose": "Telemetry records success, failure, decision, and follow-up into memory."
+    }
+  ],
+  "codex_generated_scenes": [
+    {
+      "scene": 5,
+      "name": "Queue and State Runtime",
+      "purpose": "Show planned/building/blocked/validating/reviewed states with exact labels."
+    },
+    {
+      "scene": 8,
+      "name": "Telegram Ops Console",
+      "purpose": "Show approve/reject/pause/retry/status/logs as exact operator controls."
+    },
+    {
+      "scene": 9,
+      "name": "Validation Board",
+      "purpose": "Show validation-first PASS/FAIL gates and reviewer loop."
+    },
+    {
+      "scene": 11,
+      "name": "Final System Map",
+      "purpose": "Show memory, agents, queue, gates, Telegram, validation, and telemetry."
+    }
+  ],
+  "public_safety_constraints": [
+    "No credentials",
+    "No API keys",
+    "No live deployment claims",
+    "No fake adoption metrics",
+    "No live trading execution",
+    "No production URLs",
+    "No readable generated text used as product truth"
+  ]
+}

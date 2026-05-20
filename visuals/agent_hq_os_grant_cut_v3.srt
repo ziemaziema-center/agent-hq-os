@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:07,799
+A task lands in Codex. HQ treats it like a project, not a chat reply.
+
+2
+00:00:08,000 --> 00:00:15,800
+HQ assigns roles, ownership, and review responsibility before work starts.
+
+3
+00:00:16,000 --> 00:00:23,800
+The agents challenge the plan. Weak shortcuts are rejected early.
+
+4
+00:00:24,000 --> 00:00:31,800
+Memory opens first, so old failures are not repeated.
+
+5
+00:00:32,000 --> 00:00:39,799
+Work moves through visible states: planned, building, blocked, validating, and reviewed.
+
+6
+00:00:40,000 --> 00:00:47,799
+The build produces files, demos, docs, and validation checks.
+
+7
+00:00:48,000 --> 00:00:55,799
+Risky actions stop at deferred gates until a human approves.
+
+8
+00:00:56,000 --> 00:01:03,799
+Telegram becomes the ops console: approve, reject, pause, retry, status, and logs.
+
+9
+00:01:04,000 --> 00:01:11,799
+Validation happens before confidence. Evidence beats vibes.
+
+10
+00:01:12,000 --> 00:01:19,799
+Telemetry records what worked, what failed, and what the next session should remember.
+
+11
+00:01:20,000 --> 00:01:27,799
+Agent HQ OS connects memory, agents, queues, gates, Telegram control, validation, and telemetry.

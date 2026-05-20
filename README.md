@@ -80,6 +80,7 @@ The system is intentionally simple: Markdown files, templates, validation script
 |-- workflows/                 # standard execution loop documentation
 |-- docs/                      # deeper positioning, migration, and design notes
 |-- assets/rendered/           # public screenshots and walkthrough GIF
+|-- visuals/                   # showcase video assets, subtitles, and render reports
 `-- .github/workflows/         # public repo validation workflow
 ```
 
@@ -110,6 +111,22 @@ The demo creates a small workspace, writes a validation-first note, and appends 
 - [Full 60-second narrated MP4 showcase](visuals/agent_hq_os_showcase.mp4)
 - [Voiceover subtitle file](visuals/voiceover_script.srt)
 - [Render report](visuals/render_report.md)
+
+### Agent Demonstration
+
+This grant-cut demo uses generated source clips plus deterministic FFmpeg assembly to show the workflow as an actual project run: a task lands, HQ assigns agents, reviewers debate the plan, memory opens first, the build proceeds, safety gates stop risky actions, Telegram keeps the operator in control, and telemetry closes the loop.
+
+![Agent HQ OS grant-cut demonstration preview](visuals/agent_hq_os_grant_cut_v3_preview.gif)
+
+- [Full 88-second narrated grant-cut demonstration](visuals/agent_hq_os_grant_cut_v3.mp4)
+- [English subtitle file](visuals/agent_hq_os_grant_cut_v3.srt)
+- [Korean subtitle file](visuals/agent_hq_os_grant_cut_v3_ko.srt)
+- [Render report](visuals/agent_hq_os_grant_cut_v3_render_report.md)
+- [Thumbnail](visuals/agent_hq_os_grant_cut_v3_thumbnail.png)
+- [Runway source prompt pack](visuals/runway_v3_prompt_pack.md)
+- [Shot manifest](visuals/runway_v3_shot_manifest.json)
+
+Note: the cinematic source clips were generated with web UI tooling and may include provider watermarking. Exact product text, safety claims, subtitles, and render timing are produced locally by the deterministic FFmpeg pipeline.
 
 ![Agent HQ OS walkthrough](assets/rendered/agent_hq_os_walkthrough.gif)
 
