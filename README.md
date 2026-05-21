@@ -13,7 +13,7 @@ Status placeholders for public portfolio presentation:
 | Signal | Placeholder |
 | --- | --- |
 | CI | `Public Repo Validation: passing` |
-| Release | `v0.1.0` |
+| Release | `v0.1.6` |
 | Safety | `offline-first / no live credentials` |
 | Scope | `runtime orchestration scaffold` |
 | License | `MIT` |
@@ -59,6 +59,7 @@ The system is intentionally simple: Markdown files, templates, validation script
 | Queue/state scaffolds | Models work as pending, blocked, validating, reviewed, or completed | Makes multi-step automation easier to inspect |
 | Reviewer/retry loops | Separates retryable failures from terminal failures | Avoids loops that keep pushing a broken state |
 | Telemetry/audit layer | Captures success, failure, decision, and follow-up notes | Makes the next session smarter without hidden state |
+| Self-Improving Skill | Converts telemetry into review-gated improvement proposals | Lets the operating playbook improve without unsafe self-modification |
 | tmux persistence pattern | Documents persistent terminal/session handoff conventions | Useful for long-running local agents and resumable work |
 | Telegram ops console design | Describes approval-first operator console patterns | Useful for preview, approval, rejection, and debug separation |
 | inactive n8n orchestration drafts | Keeps workflow ideas documented but non-live | Prevents public OSS from implying active production automation |
@@ -74,6 +75,7 @@ The system is intentionally simple: Markdown files, templates, validation script
 |-- memory/                    # known failures, validated patterns, patch history
 |-- telemetry/                 # execution logs and success/failure telemetry templates
 |-- templates/                 # task, failure, decision, retrospective, boot templates
+|-- skills/                    # review-gated operating skills
 |-- starter_kit/               # copyable project bootstrap structure
 |-- demo_workspace/            # local-only runnable demo
 |-- validation/                # public validation script
@@ -197,6 +199,27 @@ python validation/validate_repo.py
 python setup_demo_workspace.py
 ```
 
+## Self-Improving Skill
+
+Agent HQ OS includes a small `Self-Improving Skill` for turning real execution telemetry into safer operating rules.
+
+This is not autonomous self-modification. The skill reads success/failure telemetry, drafts a bounded improvement proposal, identifies the validation path, and requires human review before any memory or playbook changes are promoted.
+
+```mermaid
+flowchart LR
+  Telemetry["Success / failure telemetry"] --> Proposal["Improvement proposal"]
+  Proposal --> Review["Human review"]
+  Review --> Validation["Validation check"]
+  Validation --> Memory["KNOWN_FAILURES / VALIDATED_PATTERNS / PATCH_HISTORY"]
+  Memory --> Boot["Next SESSION_BOOT"]
+```
+
+Start here:
+
+- [Self-Improving Skill](skills/self_improving_skill/README.md)
+- [Skill loop documentation](docs/SELF_IMPROVING_SKILL_LOOP.md)
+- [Improvement proposal template](templates/SKILL_IMPROVEMENT_PROPOSAL.md)
+
 ## Use Cases
 
 - OSS maintainers who want AI help without losing operational memory.
@@ -230,7 +253,7 @@ python setup_demo_workspace.py
 
 | Milestone | Direction |
 | --- | --- |
-| `v0.1.x` | Improve starter kit, README badges, issue templates, and examples |
+| `v0.1.x` | Improve starter kit, README badges, issue templates, examples, public demo assets, and review-gated skill loops |
 | `v0.2.x` | Add richer queue/state fixtures and reviewer-loop examples |
 | `v0.3.x` | Add tmux persistence cookbook and terminal recording demo |
 | `v0.4.x` | Add optional local dashboard for telemetry review |

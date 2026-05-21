@@ -8,6 +8,7 @@ This roadmap is intentionally incremental. The goal is to make Agent HQ OS easie
 - Validate repo structure and placeholder-only examples.
 - Add at least one realistic troubleshooting path.
 - Publish with license, security notes, and known limitations.
+- Add a small Self-Improving Skill that turns telemetry into human-reviewed improvement proposals.
 
 ## v0.2 - Reproducible Demo
 
@@ -15,6 +16,7 @@ This roadmap is intentionally incremental. The goal is to make Agent HQ OS easie
 - Capture expected terminal output.
 - Add rendered architecture screenshot.
 - Convert one manual checklist into a script.
+- Add fixture examples showing when a skill improvement should be accepted, revised, or rejected.
 
 ## v0.3 - Maintainer Feedback
 

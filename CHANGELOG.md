@@ -4,6 +4,10 @@
 
 ### Added
 
+- Self-Improving Skill package for telemetry-driven, human-reviewed operating playbook improvements.
+- Skill improvement proposal template.
+- Self-improvement loop documentation with explicit safety and validation boundaries.
+- Instagram launch asset package for the v0.1.6 public-share cycle.
 - Public-ready README, architecture, quickstart, security, roadmap, contribution, and validation structure.
 - Safety-first examples using placeholders, fixtures, or documentation-only stubs.
 - Mermaid diagrams for the core system flow.

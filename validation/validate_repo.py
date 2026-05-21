@@ -12,6 +12,10 @@ REQUIRED = [
     "CONTRIBUTING.md",
     "CHANGELOG.md",
     "diagrams/pipeline.md",
+    "skills/self_improving_skill/README.md",
+    "skills/self_improving_skill/SKILL.md",
+    "docs/SELF_IMPROVING_SKILL_LOOP.md",
+    "templates/SKILL_IMPROVEMENT_PROPOSAL.md",
 ]
 SECRET_PATTERNS = [
     re.compile(r"sk-(?!or-REPLACE_ME)[A-Za-z0-9_\-]{16,}"),
@@ -34,7 +38,7 @@ for rel in REQUIRED:
     if path.suffix == ".md" and len(path.read_text(encoding="utf-8")) < 500:
         fail(f"{rel} needs more detail")
 
-for folder in ["docs", "examples", "diagrams", "validation"]:
+for folder in ["docs", "examples", "diagrams", "validation", "skills"]:
     if not (ROOT / folder).exists():
         fail(f"missing {folder}/")
 
